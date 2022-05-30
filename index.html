@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <!-- letra a -->
+    <header>
+        <div>
+            <img src="images/Logo.png" alt="" />
+        </div>
+    </header>
+
+    <div class="cuerpo">
+        <!-- texto a encriptar -->
+        <section id="ingresarTexto" class="ingresarTexto">
+            <div class="cajaIngresarTexto">
+                <textarea name="textoAModifica" id="textoAModificar" class="textoAModificar" cols="30" rows="10"
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+        </section>
+
+        <!-- seccion lateral -->
+
+        <section id="lateralUno" class="lateral ">
+            <aside>
+                <div id="encripYDesencrip">
+                    <!-- <img src="images/Rectangle1.png" alt=""> -->
+                    <div class="munheco">
+                        <img src="images/Muñeco.png" alt="" class="munheco" />
+                    </div>
+                    <div class="ningnmensaje">
+                        <img src="images/Ningnmensaje.png" alt="" class="ningnmensajeimg" />
+                        <p class="p-ningnmensaje">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+
+        <!-- seccion lateral con texto -->
+        <section id="lateralDos" class="lateral ">
+            <aside>
+                <div id="encripYDesencrip">
+                    <textarea name="textoAModificaDos" id="textoAModificarDos" class="textoAModificarDos" cols="30"
+                        rows="10" readonly="readonly"></textarea>
+
+                </div>
+                <div class="footerDos">
+                    <input type="submit" value="Copiar" id="botonCopiar" class="botonCopiar">
+
+
+                </div>
+            </aside>
+        </section>
+
+        <!-- pie de pagina con botones -->
+
+        <section id="botones" class="botones">
+
+            <div>
+                <div class="footerUno">
+                    <p>&#33 <img src="images/sinacentos.png" alt="" /></p>
+
+                </div>
+                <div class="footerDos">
+                    <input type="submit" value="Encriptar" id="botonEncriptar" class="encriptar">
+                    <input type="submit" value="Desencriptar" id="botonDesencriptar" class="desencriptar">
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="js/funciones2.js"></script>
+</body>
+
+</html>

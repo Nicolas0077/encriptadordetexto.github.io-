@@ -1,0 +1,197 @@
+/*css para encriptador de texto. challenyer alura 1*/
+/**/
+/**/
+body{
+    background-color: #e6e6e6;
+}
+
+header{
+
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+.cuerpo{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+   
+}
+
+.ingresarTexto{
+    float: left;
+    
+    vertical-align: top;
+    width: 64%;
+    
+
+
+}
+
+
+.textoAModificar{
+    width: 100%;
+    height: 500px;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    resize:none;/*textarea ya no puede modificarse*/
+    border: none; 
+    outline:none;/*quita el borde al marcarlo*/
+    
+}
+
+
+.textoAModificar::placeholder{
+    color: #0665aa;
+  
+}
+.lateral{
+    float: right;
+    
+    background-color: #ffffff;
+
+    width: 35%;
+    height: 700px;
+    border-radius: 15px;
+    
+}
+
+.textoAModificarDos{
+    margin-left: 5px;
+    width: 95%;
+    height: 595px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    resize:none;/*textarea ya no puede modificarse*/
+    border: none; 
+    outline:none;/*quita el borde al marcarlo*/
+    
+}
+
+.botonCopiar{
+
+        width: 90%;
+        padding: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        margin-left: 10px;
+        color: #0665aa;
+        background: #ffffff;
+        border-color: #0665aa;
+        border-radius: 15px;
+        transition: 1s all;
+        cursor: pointer;
+
+}
+.botonCopiar:hover {
+    background: #28ed7a;
+    border-color: #28ed7a;
+
+}
+
+.munheco{
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 5px;
+}
+
+.ningnmensaje{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    
+}
+.ningnmensajeimg{
+    width: 65%;
+    margin-bottom: 10px;
+
+}
+
+.p-ningnmensaje{
+    color: #625b5b;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.botones{
+    
+    float: left;
+    padding-top: 50px;
+    width: 64%;
+    height: 150px;
+   
+
+}
+
+.footerUno {
+    /*  pseudo elementos - &starf;
+     content: "★";
+    */
+   
+    
+    margin: 10px;
+    display: inline;
+  
+}
+
+.footerDos{
+    /*  pseudo elementos - &starf;
+     content: "★";
+    */
+   
+    margin: 5px;
+    
+    
+}
+.encriptar{
+    
+    width: 45%;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    
+    color: #cccccc;
+    background: #0665aa;
+    border-color: #0665aa;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background: #28ed7a;
+    border-color: #28ed7a;
+    
+
+}
+
+.desencriptar{
+    width: 45%;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #0665aa;
+    background: #cccccc;
+    border-color: #0665aa;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover {
+    background: #28ed7a;
+    border-color: #28ed7a;
+
+}
+
+.invisible{
+	display: none;
+}
